@@ -1,3 +1,5 @@
+/* this is scripted pipeline syntax */
+
 node('node-1') {
     /* properties([pipelineTriggers([upstream('starter,')])]) */   /* properties block mentioning the upsteam to look for */
     try {
